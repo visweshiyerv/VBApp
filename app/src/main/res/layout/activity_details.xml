@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dinesh Two Wheeler Service"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 9876543210"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : dinesh123@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="180dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sri Kalpana Auto Care"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 9162578360"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : srikalpana@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton1"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="360dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TRT Industries"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 6718925639"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : trtindus@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton2"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="540dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sri Vishaka Batteries"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 9718245369"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : srivishaka@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton3"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="720dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KPR Auto Parts and Co."
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 9813167271"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : kprautoparts@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton4"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="900dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Rockfort Honda Services"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 7192035638"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : rockhonda@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton5"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="1080dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Oxina Royal Enfield Services"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 7538953837"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : oxina_enfield@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton6"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="1260dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="KRT Motors Pvt Ltd."
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 78239103800"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : krt_motors@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton7"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="4"
+                android:columnCount="1"
+                android:layout_marginTop="1440dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Oxina Motors Royal Enfield"
+                    android:textStyle="bold"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phone Number : 8913730317"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Email : royal_oxina@gmail.com"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:textSize="25dp"
+                    />
+
+                <Button
+                    android:id="@+id/dial8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:onClick="onDialButton8"
+                    android:background="#90EE90"
+                    android:text="CALL" />
+            </GridLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
