@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class Info extends AppCompatActivity {
 
-    Button dial, dial1, dial2, dial3, dial4, dial5, dial6, dial7, dial8;
+    Button dial, dial1, dial2, dial3, dial4, dial5, dial6, dial7, dial8, email, mapback, email1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,36 @@ public class Info extends AppCompatActivity {
         dial6 = findViewById(R.id.dial6);
         dial7 = findViewById(R.id.dial7);
         dial8 = findViewById(R.id.dial8);
+        email = findViewById(R.id.email);
+        email1 = findViewById(R.id.email1);
+        mapback = findViewById(R.id.mapback);
+
+        email.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Info.this, Email1.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        email1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Info.this, Email2.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        mapback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Info.this, MapsActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
 
 
     }
